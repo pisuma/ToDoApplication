@@ -3,6 +3,7 @@ package com.example.mytodo.model.todo
 import androidx.room.*
 import kotlinx.coroutines.flow.Flow
 
+@Dao
 interface ToDoDao {
 
     //作成日時が指定したもの未満で、上位n件を取ってくる
